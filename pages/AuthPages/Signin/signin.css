@@ -1,1 +1,68 @@
-/** @format */
+
+@import url('https://fonts.googleapis.com/css2?family=Adamina&family=Poppins:wght@200&display=swap');
+body{
+    background-color:#00504e ;
+    font-family:Montserrat,Arial, Helvetica, sans-serif ;
+}
+.signin-box{
+    width: 365px;
+    height: 622px;
+    margin: auto;
+    border-radius: 3px;
+    background-color: aliceblue;
+}
+h1{
+    text-align:center ;
+    padding-top: 16px;
+
+}
+h4{
+    text-align: center;
+}
+form{
+    width: 302px;
+    margin-left: 22px;
+
+}
+form label{
+    display: flex;
+    margin-top: 21px;
+    font-size: 20px;
+}
+form input{
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+    outline: none;
+}
+input[type="button"]{
+    width: 322px;
+    height: 37px;
+    margin-top: 21px;
+    border: none;
+    background-color: #ffc745;
+    color: black;
+    font-weight: 500;
+    font-size: 19px;
+
+
+}
+p{
+    text-align: center;
+    padding-top: 1px;
+
+}
+.prg2{
+    text-align: center;
+    font-size: 16px;
+    color: aliceblue;
+    
+}
+
+.prg2 a{
+    color: #ffc745;
+
+}
+======
