@@ -1,0 +1,18 @@
+/** @format */
+/** @format */
+
+body {
+	margin: 0;
+	padding: 0;
+
+	/* css variables */
+	--color-error: hsl(0, 98%, 52%);
+	--color-success: #4f8a10;
+	--border-radius: 5px;
+
+	display: flex;
+	align-items: center;
+	justify-items: center;
+	font-size: 20px;
+	background-color: blueviolet;
+}
