@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./signin.css">
+        <title>Sign In</title>
+    </head>
+
+    <body>
+        <div class="wrapper">
+
+            <form action="" class="form" id="signIn">
+                <h1 class="formHeader">SignIn</h1>
+                <div class="form-msg msg-err">Wrong password/username</div>
+                <div class="input-grp">
+                    <input type="text" class="form-input" autofocus placeholder="username/email">
+                    <div class="input-err-msg">Error msg</div>
+                </div>
+                <div class="input-grp">
+                    <input type="password" class="form-input" autofocus placeholder="Enter Password">
+                    <div class="input-err-msg">Error msg</div>
+                </div>
+                <button class="btn-submit" type="submit">Sign In</button>
+                <p class="form-txt">
+                    <a href="#" class="form-link">Forgot Password?</a>
+                </p>
+                <p class="form-txt">
+                    <a id="linkCreateAccount" class="form-link">Don't have an account? SignUp instead</a>
+                </p>
+            </form>
+        </div>
+        <script src="./signin.js"></script>
+    </body>
+
+</html>
