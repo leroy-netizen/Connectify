@@ -6,13 +6,28 @@ body {
   padding: 70px;
   background-color: #00504e;
   background-repeat: no-repeat;
+  height: 300px;
 }
-#header > .header > .navigation {
-  margin-left: 950px;
+.header > .division {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.connectify {
+  font-size: 40px;
+  font-weight: bolder;
+  font-style: italic;
+  padding: 10px 5px 10px 5px;
+  color: #ffc745;
+  margin-top: -130px;
+  margin-left: -50px;
+}
+#header > .header > .division > .navigation {
   margin-bottom: 10px;
   margin-top: -50px;
 }
-#header > .header > .navigation > .nav > a {
+#header > .header > .division > .navigation > .nav > a {
   padding: 5px 15px 5px 5px;
   background-color: black;
   justify-content: space-between;
@@ -23,15 +38,8 @@ body {
 .title {
   padding: 30px 10px 20px 30px;
   margin: 0px;
-}
-.title > h1 {
-  font-size: 60px;
-
-  font-weight: bolder;
-  font-style: italic;
-  padding: 10px 5px 10px 5px;
-  text-align: center;
-  color: #ffc745;
+  margin-top: -200px;
+  margin-right: 100px;
 }
 .title > h3,
 h4 {
@@ -43,6 +51,7 @@ h4 {
 .searchbar {
   display: flex;
   justify-content: space-between;
+  margin-top: 80px;
 }
 .searchbar > div > input {
   background-color: white;
@@ -130,7 +139,11 @@ marquee {
 .fa-brands {
   padding: 10px;
 }
+
 .column > p > a {
   text-decoration: none;
   color: #ffc745;
+}
+.input {
+  padding: 5px 30px;
 }
