@@ -107,9 +107,8 @@ hr{
     width: 1000px;
   }
   button{
-      padding: 15px;
-      width: 100px;
-  }
-button :hover{
-    color: rgb(17, 192, 204);
+    padding: 15px;
+    width: 100px;
+    background-color: rgb(212, 212, 212);
 }
+
