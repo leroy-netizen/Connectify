@@ -106,3 +106,9 @@ hr{
     color:rgb(121, 122, 121);
     width: 1000px;
   }
+  button{
+    padding: 15px;
+    width: 100px;
+    background-color: rgb(212, 212, 212);
+}
+

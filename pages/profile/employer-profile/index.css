@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Tapestry&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@100&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    overflow-x: hidden;
+}
+nav{
+    width: 350px;
+    border-radius: 10px;
+    margin:10px;
+    background: linear-gradient(45deg, rgb(223, 247, 245), rgb(188, 231, 235));
+    
+  
+}
+img{
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+  padding: 10px;
+   
+    
+}
+form div{
+ padding: 2px;
+ border-style: single;
+
+}
+.navbar{
+    padding: 10px;
+    border-style: single;
+    justify-content: center;
+}
+.navdiv{
+ border-radius: 10px;
+
+
+}
+input{
+    padding: 15px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 3px 3px;
+}
+select{
+   width: 300px;
+   padding: 2px;
+    border-radius: 10px;
+    box-shadow: 3px 3px;
+
+}
+form div label{
+   padding-left:100px;
+   color: rgb(0, 0, 0);
+}
+form div  h5{
+    padding-left: 80px;
+    color: rgb(48, 47, 47);
+}
+form div  h2{
+    padding-left: 80px;
+    color:  rgb(48, 47, 47) ;
+}
+.btn{
+    padding: 5px;
+}
+div button{
+float: right;
+border-radius: 10px;
+padding: 5px;
+
+}
+button :hover{
+    background-color: aqua;
+}
+#testy h2{
+    color:rgb(216, 126, 52);
+}
+#testy{
+    display: flex;
+    flex-direction: column;
+    margin: 2px;
+    
+}
+.main{
+ box-sizing: content-box;
+ border-radius: 10px;
+ height: 200px;
+ width: 100%;
+ padding: 10px;
+
+}
+.main :hover{
+   background-color: rgb(202, 200, 200);
+}
+p i{
+    color: rgb(56, 36, 19);
+}
+hr{
+    color:rgb(121, 122, 121);
+    width: 150px;
+}
+  .stright{
+    color:rgb(121, 122, 121);
+    width: 1000px;
+  }
+  button{
+      padding: 15px;
+      width: 100px;
+  }
+button :hover{
+    background-color: aquamarine;
+}
