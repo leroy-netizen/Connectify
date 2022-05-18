@@ -1,36 +1,45 @@
 <!DOCTYPE html>
 
 <html>
+
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,500;1,200;1,400;1,600&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="/pages/AuthPages/signup/signup.css">
         <link rel="stylesheet" href="/pages/AuthPages/Signin/signin.css">
     </head>
+
     <body>
-       <div class="signin-box">
-           <h1>Sign Up</h1>
-           <h4>It's free and only takes a minute</h4>
-           <form>
-               <label>First Name</label>
-               <input type="text" placeholder="">
-               <label>Last Name</label>
-               <input type="text" placeholder="">
-               <label>Email</label>
-               <input type="text" placeholder="">
-               <label>Password</label>
-               <input type="text" placeholder="">
-               <label>Confirm Password</label>
-               <input type="text" placeholder="">
-                <input type="button" value="Submit">
-           </form>
-           <p>By clicking the sign up button,you agree to our terms<br>
-            <a href="#">Terms and conditions</a> and <a href="#">policy privacy</a>
-        </p>
-       </div>
-        <p class="prg2"> Already have an account?  <a href="#">Login Here</a></p>
-        
+        <div class="signin-box">
+            <h1>Sign Up</h1>
+            <h4>It's free and only takes a minute</h4>
+            <form id="register">
+                <label>First Name</label>
+                <input class="form-input" type="text" autofocus placeholder="First Name">
+                <label>Last Name</label>
+                <input class="form-input" type="text" autofocus placeholder="Last Name">
+                <label>Email</label>
+                <input class="form-input" type="text" placeholder="Email">
+                <label>Password</label>
+                <input class="form-input" type="password" placeholder="Password">
+                <label>Confirm Password</label>
+                <input class="form-input" type="text" placeholder="Confirm Password">
+                <input class="form-input" type="button" value="Submit">
+            </form>
+
+            <p class="form-txt ">By clicking the sign up button,you agree to our terms<br>
+                <a href="#">Terms and conditions</a> and <a href="#">policy privacy</a>
+            </p>
+
+            <p class="prg2"> Already have an account? <a href="#">Login Here</a></p>
+        </div>
+
     </body>
+
 </html>
