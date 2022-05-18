@@ -119,7 +119,18 @@ marquee {
   border-bottom-left-radius: 60px;
   border-top-right-radius: 60px;
 }
-.column {
+.footer {
+  display: flex;
+}
+.footer > .column {
   height: 250px;
   width: 32%;
+  padding: 30px;
+}
+.fa-brands {
+  padding: 10px;
+}
+.column > p > a {
+  text-decoration: none;
+  color: #ffc745;
 }
