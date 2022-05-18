@@ -1,68 +1,76 @@
+/** @format */
 
 @import url('https://fonts.googleapis.com/css2?family=Adamina&family=Poppins:wght@200&display=swap');
-body{
-    background-color:#00504e ;
-    font-family:Montserrat,Arial, Helvetica, sans-serif ;
+body {
+	background-color: #86d780;
+	font-family: Montserrat, Arial, Helvetica, sans-serif;
 }
-.signin-box{
-    width: 365px;
-    height: 622px;
-    margin: auto;
-    border-radius: 3px;
-    background-color: aliceblue;
+.signin-box {
+	width: 50vw;
+	height: 80vh;
+	margin: auto;
+	background-color: aliceblue;
+	border-radius: 10px;
+	box-shadow: 0 20px 20px 0 rgb(26, 20, 20, 1);
 }
-h1{
-    text-align:center ;
-    padding-top: 16px;
+h1 {
+	text-align: center;
+	padding-top: 16px;
+}
+h4 {
+	text-align: center;
+}
+form {
+	width: 90%;
+	margin: auto;
+}
+form label {
+	display: flex;
+	margin-top: 21px;
+	font-size: 20px;
+}
+form input {
+	width: 100%;
+	padding: 8px;
+	border: none;
+	border: 1px solid gray;
+	border-radius: 5px;
+	outline: none;
+	font: 500 1.5rem 'Raleway', sans-serif;
+}
+input[type='button'] {
+	/* width: 322px;
+	height: 37px;
+	margin-top: 21px;
+	border: none;
+	background-color: #ffc745;
+	color: black;
+	font-weight: 500;
+	font-size: 19px; */
+	width: 100%;
+	padding: 20px 30px;
+	margin-top: 10px;
+	border-radius: 5px;
+	color: white;
+	background-color: #86d780;
+	border: none;
+}
+input[type='button']:hover {
+	background-color: #4f8a10;
+}
+input[type='button']:active {
+	transform: scale(0.88);
+}
+p {
+	text-align: center;
+	padding-top: 1px;
+}
+.prg2 {
+	text-align: center;
+	font-size: 16px;
+	color: black;
+}
 
+.prg2 a {
+	color: #ffc745;
 }
-h4{
-    text-align: center;
-}
-form{
-    width: 302px;
-    margin-left: 22px;
-
-}
-form label{
-    display: flex;
-    margin-top: 21px;
-    font-size: 20px;
-}
-form input{
-    width: 100%;
-    padding: 8px;
-    border: none;
-    border: 1px solid gray;
-    border-radius: 5px;
-    outline: none;
-}
-input[type="button"]{
-    width: 322px;
-    height: 37px;
-    margin-top: 21px;
-    border: none;
-    background-color: #ffc745;
-    color: black;
-    font-weight: 500;
-    font-size: 19px;
-
-
-}
-p{
-    text-align: center;
-    padding-top: 1px;
-
-}
-.prg2{
-    text-align: center;
-    font-size: 16px;
-    color: aliceblue;
-    
-}
-
-.prg2 a{
-    color: #ffc745;
-
-}
-======
