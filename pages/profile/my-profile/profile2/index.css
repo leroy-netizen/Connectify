@@ -106,3 +106,10 @@ hr{
     color:rgb(121, 122, 121);
     width: 1000px;
   }
+  button{
+      padding: 15px;
+      width: 100px;
+  }
+button :hover{
+    color: rgb(17, 192, 204);
+}
