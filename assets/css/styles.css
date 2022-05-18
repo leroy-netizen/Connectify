@@ -1,8 +1,140 @@
-body{
-    background-color: rgb(245, 244, 244);
+/** @format */
+
+body {
+	background-color: white;
 }
 #header {
-  margin: 10px 15px 10px 15px;
-  padding: 30px;
-  
+	margin: 10px 10px 10px 5px;
+	padding: 70px;
+	background-color: #00504e;
+	background-repeat: no-repeat;
+}
+#header > .header > .navigation {
+	margin-left: 950px;
+	margin-bottom: 10px;
+	margin-top: -50px;
+}
+#header > .header > .navigation > .nav > a {
+	padding: 5px 15px 5px 5px;
+	background-color: black;
+	justify-content: space-between;
+	text-decoration: none;
+	color: #ffc745;
+	font-style: italic;
+}
+.title {
+	padding: 30px 10px 20px 30px;
+	margin: 0px;
+}
+.title > h1 {
+	font-size: 60px;
+
+	font-weight: bolder;
+	font-style: italic;
+	padding: 10px 5px 10px 5px;
+	text-align: center;
+	color: #ffc745;
+}
+.title > h3,
+h4 {
+	color: #ffc745;
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+}
+.searchbar {
+	display: flex;
+	justify-content: space-between;
+}
+.searchbar > div > input {
+	background-color: white;
+	padding: 5px;
+	border-radius: 10px;
+	font-size: 20px;
+}
+.features {
+	display: flex;
+	justify-content: space-around;
+}
+.employers {
+	border: 1px solid white;
+	height: 700px;
+	width: 48%;
+	margin: 30px 50px 30px 50px;
+	background-color: white;
+	box-shadow: 5px 5px 5px 3px;
+	border-radius: 30px;
+}
+.jobseekers {
+	border: 1px solid white;
+	height: 700px;
+	width: 48%;
+	margin: 30px 50px 30px 50px;
+	background-color: white;
+	box-shadow: 5px 5px 5px 3px;
+	border-radius: 30px;
+}
+.jobseekers > div > h2 {
+	color: #ffc745;
+	margin-top: 50px;
+	font-size: 30px;
+	text-align: center;
+}
+.employers > div > h2 {
+	color: #ffc745;
+	margin-top: 50px;
+	font-size: 30px;
+	text-align: center;
+}
+.p {
+	padding: 10px;
+	color: black;
+	font-size: 25px;
+	margin-left: 10px;
+}
+.button {
+	padding: 10px 20px 10px 20px;
+	margin-left: 30px;
+	color: #ffc745;
+	background-color: black;
+}
+.reviews {
+	text-align: center;
+	border: 1px solid black;
+	margin: 20px;
+	border-radius: 30px;
+	box-shadow: 5px 3px 2px 2px;
+}
+.reviews > h2 {
+	color: #ffc745;
+	font-size: 20px;
+	font-size: 30px;
+}
+marquee {
+	color: black;
+	font-size: 20px;
+}
+#footer {
+	background-color: black;
+	color: #ffc745;
+	height: 300px;
+	border-bottom-left-radius: 60px;
+	border-top-right-radius: 60px;
+}
+.column {
+	height: 250px;
+	width: 32%;
+}
+.reviews > h2 {
+	color: #ffc745;
+	font-size: 30px;
+}
+marquee {
+	color: black;
+	font-size: 20px;
+}
+#footer {
+	background-color: black;
+	color: #ffc745;
+	height: 300px;
 }
