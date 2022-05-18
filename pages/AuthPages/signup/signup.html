@@ -5,7 +5,16 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./signin.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,500;1,200;1,400;1,600&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="./signup.css">
         <title>Sign In</title>
     </head>
 
@@ -13,22 +22,22 @@
         <div class="wrapper">
 
             <form action="" class="form" id="signIn">
-                <h1 class="formHeader">SignIn</h1>
-                <div class="form-msg msg-err">Wrong password/username</div>
+                <h1 class="formHeader">Sign In</h1>
+                <div class="form-msg msg-err"></div>
                 <div class="input-grp">
-                    <input type="text" class="form-input" autofocus placeholder="username/email">
-                    <div class="input-err-msg">Error msg</div>
+                    <input type="text" class="form-input " autofocus placeholder="username/email">
+                    <div class="input-err-msg"></div>
                 </div>
                 <div class="input-grp">
                     <input type="password" class="form-input" autofocus placeholder="Enter Password">
-                    <div class="input-err-msg">Error msg</div>
+                    <div class="input-err-msg"></div>
                 </div>
                 <button class="btn-submit" type="submit">Sign In</button>
                 <p class="form-txt">
                     <a href="#" class="form-link">Forgot Password?</a>
                 </p>
                 <p class="form-txt">
-                    <a id="linkCreateAccount" class="form-link">Don't have an account? SignUp instead</a>
+                    <a id="linkCreateAccount" class="form-link">Don't have an account? <span>SignUp</span> instead</a>
                 </p>
             </form>
         </div>
