@@ -1,34 +1,120 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
 body {
   background-color: white;
+  
 }
-#header {
+.header {
   margin: 10px 10px 10px 5px;
   padding: 70px;
   background-color: #00504e;
   background-repeat: no-repeat;
-  height: 300px;
+  height: 230px;
+  width:100%;
 }
+/* making the webpage responsive to a small screen of min width of 410px*/
+
+@media screen and (max-width: 412px) {
+  .header {
+    width: 200%;
+    height: 200px;
+  }
+  .connectify >h1{
+ font-size: 40px;
+  font-weight: bolder;
+  font-style: italic;
+   color: #ffc745;
+  position: absolute;
+  top: 1px;
+  left: 20px;
+  }
+ .title {
+  position: absolute;
+  height: 10%;
+  width: 100%;
+  padding: 20px 50px 20px 50px;
+  margin: 0px 0px 1px 100px;
+  float:right;
+  
+}
+.title > h3,
+h4 {
+  color: #ffc745;
+  text-align: center;
+  font-weight: bold;
+  font-size: 10px;
+ 
+}
+#header > .header > .division > .navigation > .nav > a {
+  padding: 5px 0px 5px 5px;
+  background-color: black;
+  justify-content: space-evenly;
+  text-decoration: none;
+  color: #ffc045;
+  font-style: italic;
+  position: absolute;
+  top: 5px;
+  left: 50px;
+}
+.features {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 200%;
+  margin-bottom: 30px;
+}
+.employers {
+  border: 1px solid white;
+  height: 300px;
+  width: 100%;
+  margin: 30px 50px 30px 50px;
+   box-shadow: 5px 5px 5px 3px;
+  border-radius: 30px;
+  position: absolute;
+  
+  float: left;
+}
+.jobseekers {
+  border: 1px solid white;
+  height: 300px;
+  width: 100%;
+  margin: 30px 50px 30px 50px;
+  background-color: white;
+  box-shadow: 5px 5px 5px 3px;
+  border-radius: 30px;
+  position: absolute;
+  
+  float: right;
+  
+}
+/*End of responsiveness*/
+}
+
 .header > .division {
   height: 200px;
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
-.connectify {
-  font-size: 40px;
+.connectify >h1{
+  font-size: 50px;
   font-weight: bolder;
   font-style: italic;
-  padding: 10px 5px 10px 5px;
-  color: #ffc745;
-  margin-top: -130px;
-  margin-left: -50px;
+   color: #ffc745;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  
 }
 #header > .header > .division > .navigation {
-  margin-bottom: 10px;
-  margin-top: -50px;
+  position:absolute;
+  top: 30px;
+  right: 20px;
 }
 #header > .header > .division > .navigation > .nav > a {
-  padding: 5px 15px 5px 5px;
+  padding: 10px 0px 10px 15px;
   background-color: black;
   justify-content: space-between;
   text-decoration: none;
@@ -37,9 +123,10 @@ body {
 }
 .title {
   padding: 30px 10px 20px 30px;
-  margin: 0px;
-  margin-top: -200px;
-  margin-right: 100px;
+  position: absolute;
+  top: 100px;
+  margin-left: 120px;
+  right: 30%;
 }
 .title > h3,
 h4 {
@@ -51,7 +138,8 @@ h4 {
 .searchbar {
   display: flex;
   justify-content: space-between;
-  margin-top: 80px;
+  margin-right: 100px;
+ 
 }
 .searchbar > div > input {
   background-color: white;
@@ -62,6 +150,8 @@ h4 {
 .features {
   display: flex;
   justify-content: space-around;
+  width: 100%;
+  margin-bottom: 30px;
 }
 .employers {
   border: 1px solid white;
