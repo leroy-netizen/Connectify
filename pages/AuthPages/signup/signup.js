@@ -23,8 +23,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
 	document.querySelector('#linkSignUp').addEventListener('click', (e) => {
 		e.preventDefault();
-		signUpForm.classList.remove('toggle--hide');
 		signInForm.classList.add('toggle--hide');
+		signUpForm.classList.remove('toggle--hide');
 	});
 	document.querySelector('#linkSignIn').addEventListener('click', (e) => {
 		e.preventDefault();
