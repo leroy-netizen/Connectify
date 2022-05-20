@@ -19,13 +19,14 @@
     </head>
 
     <body>
-        <div class="wrapper toggle--hide">
+        <div class="wrapper ">
+            <!-- LOgin form -->
 
-            <form action="" class="form" id="signIn">
+            <form class="form " id="signIn">
                 <h1 class="formHeader">Sign In</h1>
                 <div class="form-msg msg-err"></div>
                 <div class="input-grp">
-                    <input type="text" class="form-input " autofocus placeholder="username/email">
+                    <input type="email" class="form-input " autofocus placeholder="username/email">
                     <div class="input-err-msg"></div>
                 </div>
                 <div class="input-grp">
@@ -37,11 +38,44 @@
                     <a href="#" class="form-link">Forgot Password?</a>
                 </p>
                 <p class="form-txt">
-                    <a id="linkCreateAccount" class="form-link">Don't have an account? <span>SignUp</span> instead</a>
+                    <a class="form-link" id="linkSignUp">Don't have an account? <span>SignUp</span>
+                        instead</a>
                 </p>
             </form>
+
+            <!--  register form -->
+
+
+            <form class="form toggle--hide " id="signUp ">
+                <h1 class="formHeader">Sign Up</h1>
+                <div class="form-msg msg-err"></div>
+                <div class="input-grp">
+                    <input type="text" class="form-input " id="signUpUsername" autofocus placeholder="username">
+                    <div class="input-err-msg"></div>
+                </div>
+                <div class="input-grp">
+                    <input type="email" class="form-input" autofocus placeholder="Enter Email Address">
+                    <div class="input-err-msg"></div>
+                </div>
+                <div class="input-grp">
+                    <input type="password" class="form-input" autofocus placeholder="Enter Password">
+                    <div class="input-err-msg"></div>
+                </div>
+                <div class="input-grp">
+                    <input type="password" class="form-input" autofocus placeholder="confirm Password">
+                    <div class="input-err-msg"></div>
+                </div>
+                <button class="btn-submit" type="submit">Sign In</button>
+
+                <p class="form-txt">
+                    <a class="form-link" href="./" id="linkSignIn">Already have an account? SignIn
+                        instead</a>
+                </p>
+            </form>
+            <!--  register form  end-->
+
         </div>
-        <script src="./signin.js"></script>
+        <script src="./signup.js"></script>
     </body>
 
 </html>
