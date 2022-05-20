@@ -1,149 +1,51 @@
-body {
-  background-color: white;
+
 }
-#header {
-  margin: 10px 10px 10px 5px;
-  padding: 70px;
-  background-color: #00504e;
-  background-repeat: no-repeat;
-  height: 300px;
-}
-.header > .division {
-  height: 200px;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-.connectify {
-  font-size: 40px;
-  font-weight: bolder;
-  font-style: italic;
-  padding: 10px 5px 10px 5px;
-  color: #ffc745;
-  margin-top: -130px;
-  margin-left: -50px;
-}
-#header > .header > .division > .navigation {
-  margin-bottom: 10px;
-  margin-top: -50px;
-}
-#header > .header > .division > .navigation > .nav > a {
-  padding: 5px 15px 5px 5px;
-  background-color: black;
-  justify-content: space-between;
-  text-decoration: none;
-  color: #ffc745;
-  font-style: italic;
-}
-.title {
-  padding: 30px 10px 20px 30px;
-  margin: 0px;
-  margin-top: -200px;
-  margin-right: 100px;
-}
-.title > h3,
-h4 {
-  color: #ffc745;
+.freelancer p{
   text-align: center;
-  font-weight: bold;
-  font-size: 30px;
-}
-.searchbar {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 80px;
-}
-.searchbar > div > input {
-  background-color: white;
-  padding: 5px;
-  border-radius: 10px;
+  padding: 30px;
+  margin:30px;
   font-size: 20px;
 }
-.features {
-  display: flex;
-  justify-content: space-around;
-}
-.employers {
-  border: 1px solid white;
-  height: 700px;
-  width: 48%;
-  margin: 30px 50px 30px 50px;
-  background-color: white;
-  box-shadow: 5px 5px 5px 3px;
-  border-radius: 30px;
-}
-.jobseekers {
-  border: 1px solid white;
-  height: 700px;
-  width: 48%;
-  margin: 30px 50px 30px 50px;
-  background-color: white;
-  box-shadow: 5px 5px 5px 3px;
-  border-radius: 30px;
-}
-.jobseekers > div > h2 {
-  color: #ffc745;
-  margin-top: 50px;
-  font-size: 30px;
-  text-align: center;
-}
-.employers > div > h2 {
-  color: #ffc745;
-  margin-top: 50px;
-  font-size: 30px;
-  text-align: center;
-}
-.p {
-  padding: 10px;
-  color: black;
-  font-size: 25px;
-  margin-left: 10px;
-}
-.button {
-  padding: 10px 20px 10px 20px;
-  margin-left: 30px;
-  color: #ffc745;
-  background-color: black;
-}
-.reviews {
-  text-align: center;
-  border: 1px solid black;
-  margin: 20px;
-  border-radius: 30px;
-  box-shadow: 5px 3px 2px 2px;
-}
-.reviews > h2 {
-  color: #ffc745;
-  font-size: 20px;
-  font-size: 30px;
-}
-marquee {
-  color: black;
-  font-size: 20px;
-}
-#footer {
-  background-color: black;
-  color: #ffc745;
-  height: 300px;
-  border-bottom-left-radius: 60px;
-  border-top-right-radius: 60px;
-}
-.footer {
-  display: flex;
-}
-.footer > .column {
-  height: 250px;
-  width: 32%;
+.image{
+  display: flex;  
+  flex-direction: row;  
   padding: 30px;
 }
-.fa-brands {
-  padding: 10px;
+img{
+  border-radius: 120px;
+}
+.image div{
+ padding:60px;
+ margin: 10px;
+}
+.footer{
+   background-color: rgb(5, 5, 5);
+   color: white;
+  
+}
+.foot{
+   text-align: center;
+}
+.foot h2{
+   font-size: 30px;
+}
+.icon{
+   font-size: 40px;
+   text-align: center;
+   color: white;
 }
 
-.column > p > a {
-  text-decoration: none;
-  color: #ffc745;
+.icon i{
+  padding: 50px;
 }
-.input {
-  padding: 5px 30px;
+.icons{
+  font-size: 20px;
+  text-align: center;
+ color: white;
 }
+.icons span{
+  color:orangered;
+}
+
+  
+
