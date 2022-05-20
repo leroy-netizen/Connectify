@@ -19,18 +19,18 @@
         <div class="signin-box">
             <h1>Sign Up</h1>
             <h4>It's free and only takes a minute</h4>
-            <form id="register">
+            <form action="submit" id="register">
                 <label>First Name</label>
-                <input class="form-input" type="text" autofocus placeholder="First Name">
+                <input class="form-input" id="firstName" type="text" autofocus placeholder="First Name">
                 <label>Last Name</label>
-                <input class="form-input" type="text" autofocus placeholder="Last Name">
+                <input class="form-input" type="text" id="lastName" autofocus placeholder="Last Name">
                 <label>Email</label>
-                <input class="form-input" type="text" placeholder="Email">
+                <input class="form-input" type="text" id="email" placeholder="Email">
                 <label>Password</label>
-                <input class="form-input" type="password" placeholder="Password">
+                <input class="form-input" type="password" id="password" placeholder="Password">
                 <label>Confirm Password</label>
-                <input class="form-input" type="text" placeholder="Confirm Password">
-                <input class="form-input" type="button" value="Submit">
+                <input class="form-input" type="text" id="passwordConfirm" placeholder="Confirm Password">
+                <input class="form-input" type="button" id="submit-btn" value="Submit">
             </form>
 
             <p class="form-txt ">By clicking the sign up button,you agree to our terms<br>
@@ -39,6 +39,7 @@
 
             <p class="prg2"> Already have an account? <a href="#">Login Here</a></p>
         </div>
+        <script src="./signin.js"></script>
 
     </body>
 
