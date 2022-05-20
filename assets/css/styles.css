@@ -1,96 +1,4 @@
-body{
-  margin: 0;
-  padding: 0;
 
-}
-.logo{
-  font-size: 25px;
-}
-
-#main{
-  background-color: rgb(1, 1, 82);
-}
-#nav span{
-  font-size: 30px;
-}
-#nav{
-  height: 20%;
-  width: 100% ;
-  display: inline-block;
-  background-color: rgb(3, 5, 83);
-}
-#nav span{
-  color: rgb(189, 204, 185);
-}
-#nav  ul li {
-  list-style-type: none;
-  float: right;
-  padding-left: 30px;
-  margin: 10px;
-}
-
-a{
- font-size: 18px;
- color: white;
-}
-a :hover{
-  color: black;
-}
-.text-main{
-  background-image: url('../images/header.png');
-  background-size: contain;
-  height: 600px;
-  width: 100%;
-  color: white;
-}
-.text{
-align-content: center;
-text-align: center;
-padding-top: 150px;
-height:300px;
-
-}
-.text h2{
-  font-size: 50px;
-  color: rgb(4, 1, 43);
-}
-.text  h4{
-  font-size: 30px;
-  color:orangered
-}
-button{
-  padding: 20px;
-  border-radius: 18px;
-}
-.employer{
-  background-color: beige;
-height: 300px;
-}
-.employer h3{
-  text-align: center;
-  padding: 10px;
-}
-.about{
-  background-color: beige;
-}
-.straight{
-  width: 600px;
-}
-.employer p{
-  text-align: center;
-  padding: 30px;
-  margin:30px;
-  font-size: 20px;
-
-}
-.freelancer{
- background-color: beige;
-  height: 300px;
-}
-.freelancer h3{
-  text-align: center;
-  padding: 5px;
-  font-size: 20px;
 }
 .freelancer p{
   text-align: center;
@@ -124,8 +32,9 @@ img{
 .icon{
    font-size: 40px;
    text-align: center;
-   color: white;;
+   color: white;
 }
+
 .icon i{
   padding: 50px;
 }
